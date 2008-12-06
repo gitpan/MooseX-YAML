@@ -5,7 +5,7 @@ package MooseX::YAML;
 use strict;
 use warnings;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 use Carp qw(croak);
 
@@ -52,6 +52,18 @@ sub _resolve {
 		
 		return $drv->can($routine) || croak "Can't find a provided for $routine (fallback is $drv)";
 	}
+}
+
+my $load;
+sub Load {
+    $load ||= __PACKAGE__->_resolve("Load");
+    fixup( $load->(@_) );
+}
+
+my $loadfile;
+sub LoadFile {
+    $loadfile ||= __PACKAGE__->_resolve("LoadFile");
+    fixup( $loadfile->(@_) );
 }
 
 __PACKAGE__
