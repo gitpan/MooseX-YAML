@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               MooseX-YAML
-version:            0.02
+version:            0.03
 abstract:           ~
 author:  []
 license:            unknown
@@ -10,7 +10,7 @@ configure_requires:
 requires:
     MooseX::Blessed::Reconstruct:  0
     namespace::clean:     0
-    Sub::Exporter:        0
+    Sub::Exporter:        0.982
     Test::use::ok:        0
     YAML:                 0
 no_index:
