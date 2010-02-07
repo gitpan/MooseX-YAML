@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.61.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,18 +14,18 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 d150b1fce68dacdb15c95a7a9335f7af888245c1 Changes
+SHA1 df434963e78cea89fef16e098b17e7701bc83b67 Changes
 SHA1 6d448889cdc6d56d1965525392a55ca3fef72213 MANIFEST
 SHA1 190e9058eb9c6446a1a3f3ddf15b082f1ecde152 MANIFEST.SKIP
-SHA1 97cff5e31d04f9f5f8e7d141acf1ec660a7dc19b META.yml
-SHA1 7978103c7f0ba50780de658ad7e7b75e46d9c54d Makefile.PL
-SHA1 6dd1bd4d9ba1c8203495dba7d8877dcd062166a6 lib/MooseX/YAML.pm
+SHA1 07b8fae838528c7b1bab7c54ecb7ced9d98d097e META.yml
+SHA1 3baba7e5c087c76e2edfe77294f702fbd85e047b Makefile.PL
+SHA1 e5cf06352706253d08f715b06a09f0f6af4fad64 lib/MooseX/YAML.pm
 SHA1 0fc8dd58ff1e1354f1c769d318420362a191e50c t/basic.t
 SHA1 cc6fe78f3c240e5053fdf833180755398b8825cb t/fq.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.7 (Darwin)
+Version: GnuPG/MacGPG2 v2.0.12 (Darwin)
 
-iD8DBQFJ+vHOVCwRwOvSdBgRAuoBAJ9+AlGB6V4Op2oD9pDN8gqLXbm5jwCfdgIJ
-sLiO2XLnYkJErLf7lZfYN9I=
-=9s9r
+iEYEARECAAYFAktsb0sACgkQVCwRwOvSdBiIUgCgtBRuFsQk+obYz/Gf9jxPQQ+3
+bUcAmwc8jAFhoEcTmiQBbefnZJ0FI72f
+=ZcgJ
 -----END PGP SIGNATURE-----

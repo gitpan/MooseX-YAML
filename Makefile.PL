@@ -13,8 +13,8 @@ WriteMakefile(
 	PREREQ_PM    => {
 		'Test::use::ok' => 0,
 		'YAML' => 0,
-		'MooseX::Blessed::Reconstruct' => 0,
-		'Sub::Exporter' => 0.982,
+		'MooseX::Blessed::Reconstruct' => '0.03',
+		'Sub::Exporter' => '0.982',
 		'namespace::clean' => 0,
 	},
 );
